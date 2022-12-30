@@ -5,6 +5,7 @@ import { Button } from '../button/Button';
 import { HeroOneButton } from '../hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
+import { AppConfig } from '../utils/AppConfig';
 import { Logo } from './Logo';
 
 const Hero = () => (
@@ -13,12 +14,12 @@ const Hero = () => (
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
           <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            <a>GitHub</a>
+            <a>Ta kontakt</a>
           </Link>
         </li>
         <li>
-          <Link href="/">
-            <a>Sign in</a>
+          <Link href={AppConfig.loginUrl}>
+            <a>Logg inn</a>
           </Link>
         </li>
       </NavbarTwoColumns>
@@ -28,15 +29,15 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'The modern landing page for\n'}
-            <span className="text-primary-500">React developers</span>
+            {'Styr kjøretøyene dine enkelt og effektivt\n'}
+            <span className="text-primary-500">med Logicar</span>
           </>
         }
-        description="The easiest way to build a React landing page in seconds."
+        description="Vi tilbyr en webbasert kjøretøystyringsløsning som gir bedrifter en enkel og effektiv måte å administrere sin flåte av kjøretøy."
         button={
           <Link href="https://creativedesignsguru.com/category/nextjs/">
             <a>
-              <Button xl>Download Your Free Theme</Button>
+              <Button xl>Ta kontakt</Button>
             </a>
           </Link>
         }

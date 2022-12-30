@@ -1,6 +1,7 @@
 export const AppConfig = {
-  site_name: 'Starter',
-  title: 'Nextjs Starter',
-  description: 'Starter code for your Nextjs Boilerplate with Tailwind CSS',
+  site_name: 'Logicar',
+  title: 'Logicar Fleet Management',
+  description: 'Logicar helps companies manage their growing fleet of vehicles',
   locale: 'en',
+  loginUrl: 'https://app.logicar.com/',
 };

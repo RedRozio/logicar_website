@@ -1,0 +1,482 @@
+[debug] [2022-12-30T17:22:49.604Z] ----------------------------------------------------------------------
+[debug] [2022-12-30T17:22:49.605Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting:logicarwebsite
+[debug] [2022-12-30T17:22:49.606Z] CLI Version:   11.19.0
+[debug] [2022-12-30T17:22:49.606Z] Platform:      darwin
+[debug] [2022-12-30T17:22:49.606Z] Node Version:  v18.12.1
+[debug] [2022-12-30T17:22:49.606Z] Time:          Fri Dec 30 2022 18:22:49 GMT+0100 (Central European Standard Time)
+[debug] [2022-12-30T17:22:49.607Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-30T17:22:49.638Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-30T17:22:49.638Z] > authorizing via signed-in user (anders.morille@gmail.com)
+[debug] [2022-12-30T17:22:49.638Z] [iam] checking project logicar-8d096 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-12-30T17:22:49.639Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions [none]
+[debug] [2022-12-30T17:22:49.639Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions x-goog-quota-user=projects/logicar-8d096
+[debug] [2022-12-30T17:22:49.640Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-12-30T17:22:50.518Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions 200
+[debug] [2022-12-30T17:22:50.518Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-12-30T17:22:50.520Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096 [none]
+[debug] [2022-12-30T17:22:50.844Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096 200
+[debug] [2022-12-30T17:22:50.845Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096 {"projectId":"logicar-8d096","projectNumber":"811934711912","displayName":"Logicar","name":"projects/logicar-8d096","resources":{"hostingSite":"logicar-8d096","storageBucket":"logicar-8d096.appspot.com","locationId":"europe-west"},"state":"ACTIVE","etag":"1_053242d7-765b-40c8-8db7-05c3e09bc122"}
+[debug] [2022-12-30T17:22:57.925Z] Error: Command failed: npm i --omit dev --no-audit
+    at checkExecSyncError (node:child_process:871:11)
+    at execSync (node:child_process:943:15)
+    at prepareFrameworks (/usr/local/lib/node_modules/firebase-tools/lib/frameworks/index.js:335:42)
+    at async deploy (/usr/local/lib/node_modules/firebase-tools/lib/deploy/index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-12-30T17:23:41.307Z] ----------------------------------------------------------------------
+[debug] [2022-12-30T17:23:41.308Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting:logicarwebsite
+[debug] [2022-12-30T17:23:41.308Z] CLI Version:   11.19.0
+[debug] [2022-12-30T17:23:41.308Z] Platform:      darwin
+[debug] [2022-12-30T17:23:41.308Z] Node Version:  v18.12.1
+[debug] [2022-12-30T17:23:41.309Z] Time:          Fri Dec 30 2022 18:23:41 GMT+0100 (Central European Standard Time)
+[debug] [2022-12-30T17:23:41.309Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-30T17:23:41.340Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-30T17:23:41.340Z] > authorizing via signed-in user (anders.morille@gmail.com)
+[debug] [2022-12-30T17:23:41.340Z] [iam] checking project logicar-8d096 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-12-30T17:23:41.342Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions [none]
+[debug] [2022-12-30T17:23:41.342Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions x-goog-quota-user=projects/logicar-8d096
+[debug] [2022-12-30T17:23:41.342Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-12-30T17:23:42.127Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions 200
+[debug] [2022-12-30T17:23:42.127Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-12-30T17:23:42.129Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096 [none]
+[debug] [2022-12-30T17:23:42.424Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096 200
+[debug] [2022-12-30T17:23:42.425Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096 {"projectId":"logicar-8d096","projectNumber":"811934711912","displayName":"Logicar","name":"projects/logicar-8d096","resources":{"hostingSite":"logicar-8d096","storageBucket":"logicar-8d096.appspot.com","locationId":"europe-west"},"state":"ACTIVE","etag":"1_053242d7-765b-40c8-8db7-05c3e09bc122"}
+[debug] [2022-12-30T17:23:49.268Z] Error: Command failed: npm i --omit dev --no-audit
+    at checkExecSyncError (node:child_process:871:11)
+    at execSync (node:child_process:943:15)
+    at prepareFrameworks (/usr/local/lib/node_modules/firebase-tools/lib/frameworks/index.js:335:42)
+    at async deploy (/usr/local/lib/node_modules/firebase-tools/lib/deploy/index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-12-30T17:25:42.250Z] ----------------------------------------------------------------------
+[debug] [2022-12-30T17:25:42.250Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting:logicarwebsite
+[debug] [2022-12-30T17:25:42.251Z] CLI Version:   11.19.0
+[debug] [2022-12-30T17:25:42.251Z] Platform:      darwin
+[debug] [2022-12-30T17:25:42.251Z] Node Version:  v18.12.1
+[debug] [2022-12-30T17:25:42.252Z] Time:          Fri Dec 30 2022 18:25:42 GMT+0100 (Central European Standard Time)
+[debug] [2022-12-30T17:25:42.252Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-30T17:25:42.283Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-30T17:25:42.283Z] > authorizing via signed-in user (anders.morille@gmail.com)
+[debug] [2022-12-30T17:25:42.283Z] [iam] checking project logicar-8d096 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-12-30T17:25:42.284Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions [none]
+[debug] [2022-12-30T17:25:42.284Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions x-goog-quota-user=projects/logicar-8d096
+[debug] [2022-12-30T17:25:42.284Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-12-30T17:25:43.075Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions 200
+[debug] [2022-12-30T17:25:43.075Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-12-30T17:25:43.077Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096 [none]
+[debug] [2022-12-30T17:25:43.465Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096 200
+[debug] [2022-12-30T17:25:43.465Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096 {"projectId":"logicar-8d096","projectNumber":"811934711912","displayName":"Logicar","name":"projects/logicar-8d096","resources":{"hostingSite":"logicar-8d096","storageBucket":"logicar-8d096.appspot.com","locationId":"europe-west"},"state":"ACTIVE","etag":"1_053242d7-765b-40c8-8db7-05c3e09bc122"}
+[debug] [2022-12-30T17:26:16.691Z] Error: Command failed: npm i --omit dev --no-audit
+    at checkExecSyncError (node:child_process:871:11)
+    at execSync (node:child_process:943:15)
+    at prepareFrameworks (/usr/local/lib/node_modules/firebase-tools/lib/frameworks/index.js:335:42)
+    at async deploy (/usr/local/lib/node_modules/firebase-tools/lib/deploy/index.js:53:13)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-12-30T17:30:47.854Z] ----------------------------------------------------------------------
+[debug] [2022-12-30T17:30:47.855Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy --only hosting:logicarwebsite
+[debug] [2022-12-30T17:30:47.855Z] CLI Version:   11.19.0
+[debug] [2022-12-30T17:30:47.855Z] Platform:      darwin
+[debug] [2022-12-30T17:30:47.855Z] Node Version:  v18.12.1
+[debug] [2022-12-30T17:30:47.856Z] Time:          Fri Dec 30 2022 18:30:47 GMT+0100 (Central European Standard Time)
+[debug] [2022-12-30T17:30:47.856Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-30T17:30:47.887Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-30T17:30:47.887Z] > authorizing via signed-in user (anders.morille@gmail.com)
+[debug] [2022-12-30T17:30:47.888Z] [iam] checking project logicar-8d096 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-12-30T17:30:47.888Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions [none]
+[debug] [2022-12-30T17:30:47.889Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions x-goog-quota-user=projects/logicar-8d096
+[debug] [2022-12-30T17:30:47.889Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-12-30T17:30:48.759Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions 200
+[debug] [2022-12-30T17:30:48.760Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-12-30T17:30:48.761Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096 [none]
+[debug] [2022-12-30T17:30:49.081Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096 200
+[debug] [2022-12-30T17:30:49.081Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096 {"projectId":"logicar-8d096","projectNumber":"811934711912","displayName":"Logicar","name":"projects/logicar-8d096","resources":{"hostingSite":"logicar-8d096","storageBucket":"logicar-8d096.appspot.com","locationId":"europe-west"},"state":"ACTIVE","etag":"1_053242d7-765b-40c8-8db7-05c3e09bc122"}
+[info] 
+[info] === Deploying to 'logicar-8d096'...
+[info] 
+[info] i  deploying functions, hosting 
+[debug] [2022-12-30T17:31:28.501Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096 [none]
+[debug] [2022-12-30T17:31:28.859Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096 200
+[debug] [2022-12-30T17:31:28.860Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096 {"projectId":"logicar-8d096","projectNumber":"811934711912","displayName":"Logicar","name":"projects/logicar-8d096","resources":{"hostingSite":"logicar-8d096","storageBucket":"logicar-8d096.appspot.com","locationId":"europe-west"},"state":"ACTIVE","etag":"1_053242d7-765b-40c8-8db7-05c3e09bc122"}
+[info] i  functions: preparing codebase firebase-frameworks-logicarwebsite for deployment 
+[info] i  functions: ensuring required API cloudfunctions.googleapis.com is enabled... 
+[info] i  functions: ensuring required API cloudbuild.googleapis.com is enabled... 
+[info] i  artifactregistry: ensuring required API artifactregistry.googleapis.com is enabled... 
+[debug] [2022-12-30T17:31:28.861Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/cloudfunctions.googleapis.com [none]
+[debug] [2022-12-30T17:31:28.861Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/logicar-8d096
+[debug] [2022-12-30T17:31:28.862Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/runtimeconfig.googleapis.com [none]
+[debug] [2022-12-30T17:31:28.862Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/logicar-8d096
+[debug] [2022-12-30T17:31:28.863Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/cloudbuild.googleapis.com [none]
+[debug] [2022-12-30T17:31:28.863Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/cloudbuild.googleapis.com x-goog-quota-user=projects/logicar-8d096
+[debug] [2022-12-30T17:31:28.864Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/artifactregistry.googleapis.com [none]
+[debug] [2022-12-30T17:31:28.864Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/artifactregistry.googleapis.com x-goog-quota-user=projects/logicar-8d096
+[debug] [2022-12-30T17:31:29.888Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/artifactregistry.googleapis.com 200
+[debug] [2022-12-30T17:31:29.889Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/artifactregistry.googleapis.com [omitted]
+[info] ✔  artifactregistry: required API artifactregistry.googleapis.com is enabled 
+[debug] [2022-12-30T17:31:29.901Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/cloudbuild.googleapis.com 200
+[debug] [2022-12-30T17:31:29.901Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/cloudbuild.googleapis.com [omitted]
+[info] ✔  functions: required API cloudbuild.googleapis.com is enabled 
+[debug] [2022-12-30T17:31:29.904Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/runtimeconfig.googleapis.com 200
+[debug] [2022-12-30T17:31:29.904Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2022-12-30T17:31:29.916Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/cloudfunctions.googleapis.com 200
+[debug] [2022-12-30T17:31:29.916Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/cloudfunctions.googleapis.com [omitted]
+[info] ✔  functions: required API cloudfunctions.googleapis.com is enabled 
+[debug] [2022-12-30T17:31:29.916Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096/adminSdkConfig [none]
+[debug] [2022-12-30T17:31:30.189Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096/adminSdkConfig 200
+[debug] [2022-12-30T17:31:30.189Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096/adminSdkConfig {"projectId":"logicar-8d096","storageBucket":"logicar-8d096.appspot.com","locationId":"europe-west"}
+[debug] [2022-12-30T17:31:30.190Z] >>> [apiv2][query] GET https://runtimeconfig.googleapis.com/v1beta1/projects/logicar-8d096/configs [none]
+[debug] [2022-12-30T17:31:30.471Z] <<< [apiv2][status] GET https://runtimeconfig.googleapis.com/v1beta1/projects/logicar-8d096/configs 200
+[debug] [2022-12-30T17:31:30.472Z] <<< [apiv2][body] GET https://runtimeconfig.googleapis.com/v1beta1/projects/logicar-8d096/configs {}
+[debug] [2022-12-30T17:31:30.476Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2022-12-30T17:31:31.254Z] > [functions] package.json contents: {
+  "name": "next-js-boilerplate",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "build-stats": "cross-env ANALYZE=true npm run build",
+    "export": "next export",
+    "build-prod": "run-s clean build export",
+    "clean": "rimraf .next out",
+    "lint": "next lint",
+    "build-types": "tsc --noEmit --pretty",
+    "prepare": "cd .. && husky installtemplate/.husky"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "next": "^12.0.9",
+    "next-seo": "^4.29.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-jsx-plugin-postcss": "^4.0.1",
+    "firebase-frameworks": "^0.6.0",
+    "firebase-functions": "^3.23.0",
+    "firebase-admin": "^11.0.1"
+  },
+  "license": "ISC",
+  "main": "server.js",
+  "engines": {
+    "node": "18"
+  }
+}
+[debug] [2022-12-30T17:31:31.254Z] Building nodejs source
+[debug] [2022-12-30T17:31:31.255Z] Found functions.yaml. Got spec: {
+  "endpoints": {
+    "ssrlogicarwebsite": {
+      "platform": "gcfv2",
+      "region": [
+        "us-central1"
+      ],
+      "labels": {},
+      "httpsTrigger": {},
+      "entryPoint": "ssr"
+    }
+  },
+  "specVersion": "v1alpha1",
+  "requiredAPIs": []
+}
+[info] i  functions: Loaded environment variables from .env. 
+[info] i  functions: preparing .firebase/logicarwebsite/functions directory for uploading... 
+[info] i  functions: packaged /Users/manders/Documents/GitHub/logicar/logicar_website/.firebase/logicarwebsite/functions (13.68 MB) for uploading 
+[debug] [2022-12-30T17:31:31.782Z] >>> [apiv2][query] GET https://cloudfunctions.googleapis.com/v1/projects/logicar-8d096/locations/-/functions [none]
+[debug] [2022-12-30T17:31:32.502Z] <<< [apiv2][status] GET https://cloudfunctions.googleapis.com/v1/projects/logicar-8d096/locations/-/functions 200
+[debug] [2022-12-30T17:31:32.502Z] <<< [apiv2][body] GET https://cloudfunctions.googleapis.com/v1/projects/logicar-8d096/locations/-/functions {"functions":[{"name":"projects/logicar-8d096/locations/europe-west1/functions/api","httpsTrigger":{"url":"https://europe-west1-logicar-8d096.cloudfunctions.net/api","securityLevel":"SECURE_ALWAYS"},"status":"ACTIVE","entryPoint":"api","timeout":"540s","availableMemoryMb":8192,"serviceAccountEmail":"logicar-8d096@appspot.gserviceaccount.com","updateTime":"2022-12-20T10:36:50.318Z","versionId":"14","labels":{"deployment-tool":"cli-firebase","firebase-functions-hash":"e953dd31c2b67a420470ef07364426bb14c46f6c"},"sourceUploadUrl":"https://storage.googleapis.com/uploads-875102479299.europe-west1.cloudfunctions.appspot.com/cabbd2bc-4d2c-4858-b238-0671d4b0dd93.zip","environmentVariables":{"FIREBASE_CONFIG":"{\"projectId\":\"logicar-8d096\",\"storageBucket\":\"logicar-8d096.appspot.com\",\"locationId\":\"europe-west\"}","GCLOUD_PROJECT":"logicar-8d096","EVENTARC_CLOUD_EVENT_SOURCE":"projects/logicar-8d096/locations/europe-west1/functions/api"},"runtime":"nodejs16","ingressSettings":"ALLOW_ALL","buildId":"a0276f5a-d847-4d3e-9bac-622ea2f20b02","buildName":"projects/811934711912/locations/europe-west1/builds/a0276f5a-d847-4d3e-9bac-622ea2f20b02","dockerRegistry":"ARTIFACT_REGISTRY"}]}
+[debug] [2022-12-30T17:31:32.503Z] >>> [apiv2][query] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/-/functions filter=environment%3D%22GEN_2%22
+[debug] [2022-12-30T17:31:33.676Z] <<< [apiv2][status] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/-/functions 200
+[debug] [2022-12-30T17:31:33.676Z] <<< [apiv2][body] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/-/functions {}
+[info] i  functions: ensuring required API run.googleapis.com is enabled... 
+[info] i  functions: ensuring required API eventarc.googleapis.com is enabled... 
+[info] i  functions: ensuring required API pubsub.googleapis.com is enabled... 
+[info] i  functions: ensuring required API storage.googleapis.com is enabled... 
+[debug] [2022-12-30T17:31:33.682Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/run.googleapis.com [none]
+[debug] [2022-12-30T17:31:33.682Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/run.googleapis.com x-goog-quota-user=projects/logicar-8d096
+[debug] [2022-12-30T17:31:33.686Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/eventarc.googleapis.com [none]
+[debug] [2022-12-30T17:31:33.686Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/eventarc.googleapis.com x-goog-quota-user=projects/logicar-8d096
+[debug] [2022-12-30T17:31:33.689Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/pubsub.googleapis.com [none]
+[debug] [2022-12-30T17:31:33.689Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/pubsub.googleapis.com x-goog-quota-user=projects/logicar-8d096
+[debug] [2022-12-30T17:31:33.691Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/storage.googleapis.com [none]
+[debug] [2022-12-30T17:31:33.691Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/storage.googleapis.com x-goog-quota-user=projects/logicar-8d096
+[debug] [2022-12-30T17:31:34.700Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/eventarc.googleapis.com 200
+[debug] [2022-12-30T17:31:34.701Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/eventarc.googleapis.com [omitted]
+[warn] ⚠  functions: missing required API eventarc.googleapis.com. Enabling now... 
+[debug] [2022-12-30T17:31:34.703Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/eventarc.googleapis.com:enable [none]
+[debug] [2022-12-30T17:31:34.703Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/eventarc.googleapis.com:enable x-goog-quota-user=projects/logicar-8d096
+[debug] [2022-12-30T17:31:34.709Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/pubsub.googleapis.com 200
+[debug] [2022-12-30T17:31:34.709Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/pubsub.googleapis.com [omitted]
+[info] ✔  functions: required API pubsub.googleapis.com is enabled 
+[debug] [2022-12-30T17:31:34.716Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/run.googleapis.com 200
+[debug] [2022-12-30T17:31:34.717Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/run.googleapis.com [omitted]
+[warn] ⚠  functions: missing required API run.googleapis.com. Enabling now... 
+[debug] [2022-12-30T17:31:34.717Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/run.googleapis.com:enable [none]
+[debug] [2022-12-30T17:31:34.717Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/run.googleapis.com:enable x-goog-quota-user=projects/logicar-8d096
+[debug] [2022-12-30T17:31:34.722Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/storage.googleapis.com 200
+[debug] [2022-12-30T17:31:34.722Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/storage.googleapis.com [omitted]
+[info] ✔  functions: required API storage.googleapis.com is enabled 
+[debug] [2022-12-30T17:31:36.336Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/run.googleapis.com:enable 200
+[debug] [2022-12-30T17:31:36.336Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/run.googleapis.com:enable [omitted]
+[debug] [2022-12-30T17:31:36.338Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/eventarc.googleapis.com:enable 200
+[debug] [2022-12-30T17:31:36.338Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/eventarc.googleapis.com:enable [omitted]
+[debug] [2022-12-30T17:31:46.333Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/run.googleapis.com [none]
+[debug] [2022-12-30T17:31:46.334Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/run.googleapis.com x-goog-quota-user=projects/logicar-8d096
+[debug] [2022-12-30T17:31:46.339Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/eventarc.googleapis.com [none]
+[debug] [2022-12-30T17:31:46.339Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/eventarc.googleapis.com x-goog-quota-user=projects/logicar-8d096
+[debug] [2022-12-30T17:31:47.247Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/run.googleapis.com 200
+[debug] [2022-12-30T17:31:47.247Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/run.googleapis.com [omitted]
+[info] ✔  functions: required API run.googleapis.com is enabled 
+[debug] [2022-12-30T17:31:47.266Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/eventarc.googleapis.com 200
+[debug] [2022-12-30T17:31:47.266Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/logicar-8d096/services/eventarc.googleapis.com [omitted]
+[info] ✔  functions: required API eventarc.googleapis.com is enabled 
+[info] i  functions: generating the service identity for pubsub.googleapis.com... 
+[info] i  functions: generating the service identity for eventarc.googleapis.com... 
+[debug] [2022-12-30T17:31:47.267Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1beta1/projects/811934711912/services/pubsub.googleapis.com:generateServiceIdentity [none]
+[debug] [2022-12-30T17:31:47.269Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1beta1/projects/811934711912/services/eventarc.googleapis.com:generateServiceIdentity [none]
+[debug] [2022-12-30T17:31:48.409Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1beta1/projects/811934711912/services/pubsub.googleapis.com:generateServiceIdentity 200
+[debug] [2022-12-30T17:31:48.409Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1beta1/projects/811934711912/services/pubsub.googleapis.com:generateServiceIdentity {"name":"operations/finished.DONE_OPERATION","done":true,"response":{"@type":"type.googleapis.com/google.api.serviceusage.v1beta1.ServiceIdentity","email":"service-811934711912@gcp-sa-pubsub.iam.gserviceaccount.com","uniqueId":"101496878082678778161"}}
+[debug] [2022-12-30T17:31:48.445Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1beta1/projects/811934711912/services/eventarc.googleapis.com:generateServiceIdentity 200
+[debug] [2022-12-30T17:31:48.445Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1beta1/projects/811934711912/services/eventarc.googleapis.com:generateServiceIdentity {"name":"operations/finished.DONE_OPERATION","done":true,"response":{"@type":"type.googleapis.com/google.api.serviceusage.v1beta1.ServiceIdentity","email":"service-811934711912@gcp-sa-eventarc.iam.gserviceaccount.com","uniqueId":"103080127292222635174"}}
+[debug] [2022-12-30T17:31:48.447Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096 [none]
+[debug] [2022-12-30T17:31:48.820Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096 200
+[debug] [2022-12-30T17:31:48.821Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/logicar-8d096 {"projectId":"logicar-8d096","projectNumber":"811934711912","displayName":"Logicar","name":"projects/logicar-8d096","resources":{"hostingSite":"logicar-8d096","storageBucket":"logicar-8d096.appspot.com","locationId":"europe-west"},"state":"ACTIVE","etag":"1_053242d7-765b-40c8-8db7-05c3e09bc122"}
+[debug] [2022-12-30T17:31:48.823Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/logicarwebsite/versions [none]
+[debug] [2022-12-30T17:31:48.823Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/logicarwebsite/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase","firebase-web-framework":"next_ssr"}}
+[debug] [2022-12-30T17:31:50.458Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/logicarwebsite/versions 200
+[debug] [2022-12-30T17:31:50.458Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/logicarwebsite/versions {"name":"projects/811934711912/sites/logicarwebsite/versions/a178335a0f57e4ce","status":"CREATED","config":{},"labels":{"firebase-web-framework":"next_ssr","deployment-tool":"cli-firebase"}}
+[debug] [2022-12-30T17:31:50.459Z] [functions] found 1 new HTTP functions, testing setIamPolicy permission...
+[debug] [2022-12-30T17:31:50.460Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions [none]
+[debug] [2022-12-30T17:31:50.460Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions x-goog-quota-user=projects/logicar-8d096
+[debug] [2022-12-30T17:31:50.460Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions {"permissions":["cloudfunctions.functions.setIamPolicy"]}
+[debug] [2022-12-30T17:31:51.280Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions 200
+[debug] [2022-12-30T17:31:51.280Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/logicar-8d096:testIamPermissions {"permissions":["cloudfunctions.functions.setIamPolicy"]}
+[debug] [2022-12-30T17:31:51.280Z] [functions] found setIamPolicy permission, proceeding with deploy
+[debug] [2022-12-30T17:31:51.281Z] >>> [apiv2][query] POST https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/functions:generateUploadUrl [none]
+[debug] [2022-12-30T17:31:53.016Z] <<< [apiv2][status] POST https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/functions:generateUploadUrl 200
+[debug] [2022-12-30T17:31:53.016Z] <<< [apiv2][body] POST https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/functions:generateUploadUrl {"uploadUrl":"https://storage.googleapis.com/gcf-v2-uploads-811934711912-us-central1/561fe29a-7566-46ef-94aa-244b65e9fce6.zip?GoogleAccessId=service-811934711912@gcf-admin-robot.iam.gserviceaccount.com&Expires=1672423312&Signature=eXnQZ0Tsyn6LWrq7mx6MIDZFUCIq6H0joU6woatqYwVpTzxCY0CCmsBGaUC1mnza6OrN%2Ba2vourKVadJy%2FT5UyfpGRFnLGm2VToOblwbrSkYkImECuoqkZyRDk1tA%2BztyAgG0k72I0QC%2B5qUfu%2BTFbhm%2BiiZmMiZwyDDGDuHh4opNewVF8DCR%2FtZHw04bhUimqPc01rpAJP6anryTwWCSmwwXeyADCN1WZtQzLqpxq5TA4Iz1vcVMf%2FzqZjbPobW8bdHcQfgZCVR9gz61w%2FRRPQW%2Bd3zsAv7kFwelHbGUlduqqvxCIjTkoW%2BzYdOFlhJZyD1oPxS3voX9fEYC0qQ1w%3D%3D","storageSource":{"bucket":"gcf-v2-uploads-811934711912-us-central1","object":"561fe29a-7566-46ef-94aa-244b65e9fce6.zip"}}
+[debug] [2022-12-30T17:31:53.017Z] >>> [apiv2][query] PUT https://storage.googleapis.com/gcf-v2-uploads-811934711912-us-central1/561fe29a-7566-46ef-94aa-244b65e9fce6.zip GoogleAccessId=service-811934711912%40gcf-admin-robot.iam.gserviceaccount.com&Expires=1672423312&Signature=eXnQZ0Tsyn6LWrq7mx6MIDZFUCIq6H0joU6woatqYwVpTzxCY0CCmsBGaUC1mnza6OrN%2Ba2vourKVadJy%2FT5UyfpGRFnLGm2VToOblwbrSkYkImECuoqkZyRDk1tA%2BztyAgG0k72I0QC%2B5qUfu%2BTFbhm%2BiiZmMiZwyDDGDuHh4opNewVF8DCR%2FtZHw04bhUimqPc01rpAJP6anryTwWCSmwwXeyADCN1WZtQzLqpxq5TA4Iz1vcVMf%2FzqZjbPobW8bdHcQfgZCVR9gz61w%2FRRPQW%2Bd3zsAv7kFwelHbGUlduqqvxCIjTkoW%2BzYdOFlhJZyD1oPxS3voX9fEYC0qQ1w%3D%3D
+[debug] [2022-12-30T17:31:53.017Z] >>> [apiv2][body] PUT https://storage.googleapis.com/gcf-v2-uploads-811934711912-us-central1/561fe29a-7566-46ef-94aa-244b65e9fce6.zip [stream]
+[debug] [2022-12-30T17:32:23.531Z] <<< [apiv2][status] PUT https://storage.googleapis.com/gcf-v2-uploads-811934711912-us-central1/561fe29a-7566-46ef-94aa-244b65e9fce6.zip 200
+[debug] [2022-12-30T17:32:23.531Z] <<< [apiv2][body] PUT https://storage.googleapis.com/gcf-v2-uploads-811934711912-us-central1/561fe29a-7566-46ef-94aa-244b65e9fce6.zip [omitted]
+[info] ✔  functions: .firebase/logicarwebsite/functions folder uploaded successfully 
+[info] i  hosting[logicarwebsite]: beginning deploy... 
+[info] i  hosting[logicarwebsite]: found 23 files in .firebase/logicarwebsite/hosting 
+[debug] [2022-12-30T17:32:23.554Z] [hosting] uploading with 200 concurrency
+[debug] [2022-12-30T17:32:23.554Z] [hosting] hash cache [LmZpcmViYXNlL2xvZ2ljYXJ3ZWJzaXRlL2hvc3Rpbmc] not populated
+[debug] [2022-12-30T17:32:23.570Z] [hosting] hash cache [LmZpcmViYXNlL2xvZ2ljYXJ3ZWJzaXRlL2hvc3Rpbmc] stored for 23 files
+[debug] [2022-12-30T17:32:23.570Z] [hosting][hash queue][FINAL] {"max":11,"min":6,"avg":7.913043478260869,"active":0,"complete":23,"success":23,"errored":0,"retried":0,"total":23,"elapsed":14}
+[debug] [2022-12-30T17:32:23.571Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/811934711912/sites/logicarwebsite/versions/a178335a0f57e4ce:populateFiles [none]
+[debug] [2022-12-30T17:32:23.571Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/811934711912/sites/logicarwebsite/versions/a178335a0f57e4ce:populateFiles {"files":{"/favicon-16x16.png":"7ef9ba7f9d9ff234efa576f878f9bc87ffad6e35c585eb3b166fd7c2f5bdbfb8","/500.html":"e096233a10679be070c611cfdbb19f6122989d64ba1bff877c6123c7aec0bc69","/_next/static/chunks/741.5c49c5ccb4a0a8f7.js":"9850ddc9166aae6eeef9466afbf99fdba1c822369821a1cb2eebae8b7de90501","/favicon-32x32.png":"bfb6343ae7eb1f51b7354cf168d743520aa94103ebc703712c48048b2090ebe2","/_next/static/chunks/651.8aaebbbff3fb4a6d.js":"5688b4e5c9b9e11a1ed260e43a2e8d1e626a34269b8ba8ae1ed11727fe6eccc7","/index.html":"332ab28b45e48d58e8f18dab2e400cadb4ede6690d6e62fb7b39ad8eea5b204a","/_next/static/chunks/pages/_app-33fb588a454ab3de.js":"d82c4c98212c9e6189bc6fdaf7aeee27697885d1fa01bebb482096f6d9e8d2c5","/_next/static/chunks/webpack-ddfed59f9580d7b8.js":"ce3b962c7083406e5eb9445572cce8d75846d0560e728f2d28207fafa76cd0f4","/favicon.ico":"21b5ca7aa10d8eaf769ce36696511f08c22041fa0412c6f3b9d919564d99ab48","/_next/static/chunks/pages/_error-3c9a37b9888d2d4e.js":"c6adb9ee5a6dc37cd09d3cb6f435b7cd7cefc80352281067d9fe1e6f0068aee6","/404.html":"e4e18d2e2e8526afccd9b342872142002d8438e8e7c63914da68cd130f11fa05","/_next/static/xCFCNAcGImJDbge4HIBiH/_buildManifest.js":"e9f3af146ba37d3f437f37f38914784514cd93f784607033df28b9887a6f4c11","/_next/static/chunks/646-475ee82c7a0ca9fe.js":"dc082e5ca4afce0db5251638cd36f3c9dac42f6e5946f8a2850526a4867560df","/assets/images/notification.svg":"d7cfb82d7c69be1dbf74d027a9314b52a3d82a187ee0276546b1b0ddcb18fe79","/_next/static/xCFCNAcGImJDbge4HIBiH/_ssgManifest.js":"5c126729f9831113842c425975615db312fa26d39f3a9e1baa47d4ad65ac2f90","/_next/static/chunks/pages/index-053b17fbd549538c.js":"606d9a997faccdef725ef014bd1122b105d3f332300734ba913c1851fb468416","/_next/static/css/8e1acb4956b30692.css":"e8b870ec6d197c4fdeaacd8f0833677e6fb558ddc51c34490523ea685c379b61","/assets/logo/logo.svg":"414fbb9e507e526dd78de8be713011e4c4709dd0f755984a51baac7f77038b96","/assets/images/vehicle.svg":"853a8f5701c20f7c56317c67970805548accff36b838e3f9715513c27d47702f","/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js":"aba23275a3c1380bfc8d467fd921b0c209e7182dbdaa02611c3a496b0b3b34ec","/assets/images/users.svg":"c34df189d1bfb29a73dab74f7057693c9bc00a26e749f57ef16feefddfd6f158","/_next/static/chunks/main-a2cf71215c9e1dc5.js":"e4d9877c3da070b18e8477122694054c54a0f3d7ed653c6e6185b06411afc16f","/_next/static/chunks/framework-5f4595e5518b5600.js":"6292c24bf8ba7aa218dad5fb783ae51fac1e4a5f8788556c00f41de6dbe5bce0"}}
+[debug] [2022-12-30T17:32:24.967Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/811934711912/sites/logicarwebsite/versions/a178335a0f57e4ce:populateFiles 200
+[debug] [2022-12-30T17:32:24.968Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/811934711912/sites/logicarwebsite/versions/a178335a0f57e4ce:populateFiles {"uploadRequiredHashes":["ce3b962c7083406e5eb9445572cce8d75846d0560e728f2d28207fafa76cd0f4","e8b870ec6d197c4fdeaacd8f0833677e6fb558ddc51c34490523ea685c379b61","aba23275a3c1380bfc8d467fd921b0c209e7182dbdaa02611c3a496b0b3b34ec","853a8f5701c20f7c56317c67970805548accff36b838e3f9715513c27d47702f","e9f3af146ba37d3f437f37f38914784514cd93f784607033df28b9887a6f4c11","e4d9877c3da070b18e8477122694054c54a0f3d7ed653c6e6185b06411afc16f","d82c4c98212c9e6189bc6fdaf7aeee27697885d1fa01bebb482096f6d9e8d2c5","7ef9ba7f9d9ff234efa576f878f9bc87ffad6e35c585eb3b166fd7c2f5bdbfb8","6292c24bf8ba7aa218dad5fb783ae51fac1e4a5f8788556c00f41de6dbe5bce0","606d9a997faccdef725ef014bd1122b105d3f332300734ba913c1851fb468416","414fbb9e507e526dd78de8be713011e4c4709dd0f755984a51baac7f77038b96","5688b4e5c9b9e11a1ed260e43a2e8d1e626a34269b8ba8ae1ed11727fe6eccc7","dc082e5ca4afce0db5251638cd36f3c9dac42f6e5946f8a2850526a4867560df","e096233a10679be070c611cfdbb19f6122989d64ba1bff877c6123c7aec0bc69","c6adb9ee5a6dc37cd09d3cb6f435b7cd7cefc80352281067d9fe1e6f0068aee6","bfb6343ae7eb1f51b7354cf168d743520aa94103ebc703712c48048b2090ebe2","c34df189d1bfb29a73dab74f7057693c9bc00a26e749f57ef16feefddfd6f158","e4e18d2e2e8526afccd9b342872142002d8438e8e7c63914da68cd130f11fa05","332ab28b45e48d58e8f18dab2e400cadb4ede6690d6e62fb7b39ad8eea5b204a","5c126729f9831113842c425975615db312fa26d39f3a9e1baa47d4ad65ac2f90","d7cfb82d7c69be1dbf74d027a9314b52a3d82a187ee0276546b1b0ddcb18fe79","9850ddc9166aae6eeef9466afbf99fdba1c822369821a1cb2eebae8b7de90501","21b5ca7aa10d8eaf769ce36696511f08c22041fa0412c6f3b9d919564d99ab48"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files"}
+[debug] [2022-12-30T17:32:24.972Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/ce3b962c7083406e5eb9445572cce8d75846d0560e728f2d28207fafa76cd0f4 [none]
+[debug] [2022-12-30T17:32:24.972Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/ce3b962c7083406e5eb9445572cce8d75846d0560e728f2d28207fafa76cd0f4 [stream]
+[debug] [2022-12-30T17:32:24.974Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/e8b870ec6d197c4fdeaacd8f0833677e6fb558ddc51c34490523ea685c379b61 [none]
+[debug] [2022-12-30T17:32:24.974Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/e8b870ec6d197c4fdeaacd8f0833677e6fb558ddc51c34490523ea685c379b61 [stream]
+[debug] [2022-12-30T17:32:24.976Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/aba23275a3c1380bfc8d467fd921b0c209e7182dbdaa02611c3a496b0b3b34ec [none]
+[debug] [2022-12-30T17:32:24.976Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/aba23275a3c1380bfc8d467fd921b0c209e7182dbdaa02611c3a496b0b3b34ec [stream]
+[debug] [2022-12-30T17:32:24.977Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/853a8f5701c20f7c56317c67970805548accff36b838e3f9715513c27d47702f [none]
+[debug] [2022-12-30T17:32:24.977Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/853a8f5701c20f7c56317c67970805548accff36b838e3f9715513c27d47702f [stream]
+[debug] [2022-12-30T17:32:24.977Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/e9f3af146ba37d3f437f37f38914784514cd93f784607033df28b9887a6f4c11 [none]
+[debug] [2022-12-30T17:32:24.977Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/e9f3af146ba37d3f437f37f38914784514cd93f784607033df28b9887a6f4c11 [stream]
+[debug] [2022-12-30T17:32:24.978Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/e4d9877c3da070b18e8477122694054c54a0f3d7ed653c6e6185b06411afc16f [none]
+[debug] [2022-12-30T17:32:24.978Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/e4d9877c3da070b18e8477122694054c54a0f3d7ed653c6e6185b06411afc16f [stream]
+[debug] [2022-12-30T17:32:24.979Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/d82c4c98212c9e6189bc6fdaf7aeee27697885d1fa01bebb482096f6d9e8d2c5 [none]
+[debug] [2022-12-30T17:32:24.979Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/d82c4c98212c9e6189bc6fdaf7aeee27697885d1fa01bebb482096f6d9e8d2c5 [stream]
+[debug] [2022-12-30T17:32:24.979Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/7ef9ba7f9d9ff234efa576f878f9bc87ffad6e35c585eb3b166fd7c2f5bdbfb8 [none]
+[debug] [2022-12-30T17:32:24.980Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/7ef9ba7f9d9ff234efa576f878f9bc87ffad6e35c585eb3b166fd7c2f5bdbfb8 [stream]
+[debug] [2022-12-30T17:32:24.980Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/6292c24bf8ba7aa218dad5fb783ae51fac1e4a5f8788556c00f41de6dbe5bce0 [none]
+[debug] [2022-12-30T17:32:24.980Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/6292c24bf8ba7aa218dad5fb783ae51fac1e4a5f8788556c00f41de6dbe5bce0 [stream]
+[debug] [2022-12-30T17:32:24.981Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/606d9a997faccdef725ef014bd1122b105d3f332300734ba913c1851fb468416 [none]
+[debug] [2022-12-30T17:32:24.981Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/606d9a997faccdef725ef014bd1122b105d3f332300734ba913c1851fb468416 [stream]
+[debug] [2022-12-30T17:32:24.981Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/414fbb9e507e526dd78de8be713011e4c4709dd0f755984a51baac7f77038b96 [none]
+[debug] [2022-12-30T17:32:24.981Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/414fbb9e507e526dd78de8be713011e4c4709dd0f755984a51baac7f77038b96 [stream]
+[debug] [2022-12-30T17:32:24.984Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/5688b4e5c9b9e11a1ed260e43a2e8d1e626a34269b8ba8ae1ed11727fe6eccc7 [none]
+[debug] [2022-12-30T17:32:24.984Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/5688b4e5c9b9e11a1ed260e43a2e8d1e626a34269b8ba8ae1ed11727fe6eccc7 [stream]
+[debug] [2022-12-30T17:32:24.984Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/dc082e5ca4afce0db5251638cd36f3c9dac42f6e5946f8a2850526a4867560df [none]
+[debug] [2022-12-30T17:32:24.984Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/dc082e5ca4afce0db5251638cd36f3c9dac42f6e5946f8a2850526a4867560df [stream]
+[debug] [2022-12-30T17:32:24.985Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/e096233a10679be070c611cfdbb19f6122989d64ba1bff877c6123c7aec0bc69 [none]
+[debug] [2022-12-30T17:32:24.985Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/e096233a10679be070c611cfdbb19f6122989d64ba1bff877c6123c7aec0bc69 [stream]
+[debug] [2022-12-30T17:32:24.985Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/c6adb9ee5a6dc37cd09d3cb6f435b7cd7cefc80352281067d9fe1e6f0068aee6 [none]
+[debug] [2022-12-30T17:32:24.985Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/c6adb9ee5a6dc37cd09d3cb6f435b7cd7cefc80352281067d9fe1e6f0068aee6 [stream]
+[debug] [2022-12-30T17:32:24.986Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/bfb6343ae7eb1f51b7354cf168d743520aa94103ebc703712c48048b2090ebe2 [none]
+[debug] [2022-12-30T17:32:24.986Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/bfb6343ae7eb1f51b7354cf168d743520aa94103ebc703712c48048b2090ebe2 [stream]
+[debug] [2022-12-30T17:32:24.987Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/c34df189d1bfb29a73dab74f7057693c9bc00a26e749f57ef16feefddfd6f158 [none]
+[debug] [2022-12-30T17:32:24.987Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/c34df189d1bfb29a73dab74f7057693c9bc00a26e749f57ef16feefddfd6f158 [stream]
+[debug] [2022-12-30T17:32:24.987Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/e4e18d2e2e8526afccd9b342872142002d8438e8e7c63914da68cd130f11fa05 [none]
+[debug] [2022-12-30T17:32:24.987Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/e4e18d2e2e8526afccd9b342872142002d8438e8e7c63914da68cd130f11fa05 [stream]
+[debug] [2022-12-30T17:32:24.988Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/332ab28b45e48d58e8f18dab2e400cadb4ede6690d6e62fb7b39ad8eea5b204a [none]
+[debug] [2022-12-30T17:32:24.988Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/332ab28b45e48d58e8f18dab2e400cadb4ede6690d6e62fb7b39ad8eea5b204a [stream]
+[debug] [2022-12-30T17:32:24.988Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/5c126729f9831113842c425975615db312fa26d39f3a9e1baa47d4ad65ac2f90 [none]
+[debug] [2022-12-30T17:32:24.988Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/5c126729f9831113842c425975615db312fa26d39f3a9e1baa47d4ad65ac2f90 [stream]
+[debug] [2022-12-30T17:32:24.988Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/d7cfb82d7c69be1dbf74d027a9314b52a3d82a187ee0276546b1b0ddcb18fe79 [none]
+[debug] [2022-12-30T17:32:24.988Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/d7cfb82d7c69be1dbf74d027a9314b52a3d82a187ee0276546b1b0ddcb18fe79 [stream]
+[debug] [2022-12-30T17:32:24.989Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/9850ddc9166aae6eeef9466afbf99fdba1c822369821a1cb2eebae8b7de90501 [none]
+[debug] [2022-12-30T17:32:24.989Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/9850ddc9166aae6eeef9466afbf99fdba1c822369821a1cb2eebae8b7de90501 [stream]
+[debug] [2022-12-30T17:32:24.990Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/21b5ca7aa10d8eaf769ce36696511f08c22041fa0412c6f3b9d919564d99ab48 [none]
+[debug] [2022-12-30T17:32:24.990Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/21b5ca7aa10d8eaf769ce36696511f08c22041fa0412c6f3b9d919564d99ab48 [stream]
+[debug] [2022-12-30T17:32:24.991Z] [hosting][populate queue][FINAL] {"max":1403,"min":1403,"avg":1403,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1422}
+[debug] [2022-12-30T17:32:24.991Z] [hosting] uploads queued: 23
+[debug] [2022-12-30T17:32:26.599Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/5688b4e5c9b9e11a1ed260e43a2e8d1e626a34269b8ba8ae1ed11727fe6eccc7 200
+[debug] [2022-12-30T17:32:26.600Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/5688b4e5c9b9e11a1ed260e43a2e8d1e626a34269b8ba8ae1ed11727fe6eccc7 [stream]
+[debug] [2022-12-30T17:32:26.611Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/853a8f5701c20f7c56317c67970805548accff36b838e3f9715513c27d47702f 200
+[debug] [2022-12-30T17:32:26.611Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/853a8f5701c20f7c56317c67970805548accff36b838e3f9715513c27d47702f [stream]
+[debug] [2022-12-30T17:32:26.737Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/c6adb9ee5a6dc37cd09d3cb6f435b7cd7cefc80352281067d9fe1e6f0068aee6 200
+[debug] [2022-12-30T17:32:26.737Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/c6adb9ee5a6dc37cd09d3cb6f435b7cd7cefc80352281067d9fe1e6f0068aee6 [stream]
+[debug] [2022-12-30T17:32:26.797Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/7ef9ba7f9d9ff234efa576f878f9bc87ffad6e35c585eb3b166fd7c2f5bdbfb8 200
+[debug] [2022-12-30T17:32:26.797Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/7ef9ba7f9d9ff234efa576f878f9bc87ffad6e35c585eb3b166fd7c2f5bdbfb8 [stream]
+[debug] [2022-12-30T17:32:26.805Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/ce3b962c7083406e5eb9445572cce8d75846d0560e728f2d28207fafa76cd0f4 200
+[debug] [2022-12-30T17:32:26.805Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/ce3b962c7083406e5eb9445572cce8d75846d0560e728f2d28207fafa76cd0f4 [stream]
+[debug] [2022-12-30T17:32:26.815Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/21b5ca7aa10d8eaf769ce36696511f08c22041fa0412c6f3b9d919564d99ab48 200
+[debug] [2022-12-30T17:32:26.815Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/21b5ca7aa10d8eaf769ce36696511f08c22041fa0412c6f3b9d919564d99ab48 [stream]
+[debug] [2022-12-30T17:32:26.821Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/bfb6343ae7eb1f51b7354cf168d743520aa94103ebc703712c48048b2090ebe2 200
+[debug] [2022-12-30T17:32:26.822Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/bfb6343ae7eb1f51b7354cf168d743520aa94103ebc703712c48048b2090ebe2 [stream]
+[debug] [2022-12-30T17:32:26.835Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/d82c4c98212c9e6189bc6fdaf7aeee27697885d1fa01bebb482096f6d9e8d2c5 200
+[debug] [2022-12-30T17:32:26.835Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/d82c4c98212c9e6189bc6fdaf7aeee27697885d1fa01bebb482096f6d9e8d2c5 [stream]
+[debug] [2022-12-30T17:32:26.846Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/9850ddc9166aae6eeef9466afbf99fdba1c822369821a1cb2eebae8b7de90501 200
+[debug] [2022-12-30T17:32:26.846Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/9850ddc9166aae6eeef9466afbf99fdba1c822369821a1cb2eebae8b7de90501 [stream]
+[debug] [2022-12-30T17:32:26.950Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/332ab28b45e48d58e8f18dab2e400cadb4ede6690d6e62fb7b39ad8eea5b204a 200
+[debug] [2022-12-30T17:32:26.950Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/332ab28b45e48d58e8f18dab2e400cadb4ede6690d6e62fb7b39ad8eea5b204a [stream]
+[debug] [2022-12-30T17:32:26.951Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/aba23275a3c1380bfc8d467fd921b0c209e7182dbdaa02611c3a496b0b3b34ec 200
+[debug] [2022-12-30T17:32:26.951Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/aba23275a3c1380bfc8d467fd921b0c209e7182dbdaa02611c3a496b0b3b34ec [stream]
+[debug] [2022-12-30T17:32:26.971Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/5c126729f9831113842c425975615db312fa26d39f3a9e1baa47d4ad65ac2f90 200
+[debug] [2022-12-30T17:32:26.971Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/5c126729f9831113842c425975615db312fa26d39f3a9e1baa47d4ad65ac2f90 [stream]
+[debug] [2022-12-30T17:32:26.971Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/e4d9877c3da070b18e8477122694054c54a0f3d7ed653c6e6185b06411afc16f 200
+[debug] [2022-12-30T17:32:26.972Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/e4d9877c3da070b18e8477122694054c54a0f3d7ed653c6e6185b06411afc16f [stream]
+[debug] [2022-12-30T17:32:27.002Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/dc082e5ca4afce0db5251638cd36f3c9dac42f6e5946f8a2850526a4867560df 200
+[debug] [2022-12-30T17:32:27.002Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/dc082e5ca4afce0db5251638cd36f3c9dac42f6e5946f8a2850526a4867560df [stream]
+[debug] [2022-12-30T17:32:27.020Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/e4e18d2e2e8526afccd9b342872142002d8438e8e7c63914da68cd130f11fa05 200
+[debug] [2022-12-30T17:32:27.020Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/e4e18d2e2e8526afccd9b342872142002d8438e8e7c63914da68cd130f11fa05 [stream]
+[debug] [2022-12-30T17:32:27.024Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/d7cfb82d7c69be1dbf74d027a9314b52a3d82a187ee0276546b1b0ddcb18fe79 200
+[debug] [2022-12-30T17:32:27.024Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/d7cfb82d7c69be1dbf74d027a9314b52a3d82a187ee0276546b1b0ddcb18fe79 [stream]
+[debug] [2022-12-30T17:32:27.039Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/606d9a997faccdef725ef014bd1122b105d3f332300734ba913c1851fb468416 200
+[debug] [2022-12-30T17:32:27.039Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/606d9a997faccdef725ef014bd1122b105d3f332300734ba913c1851fb468416 [stream]
+[debug] [2022-12-30T17:32:27.057Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/6292c24bf8ba7aa218dad5fb783ae51fac1e4a5f8788556c00f41de6dbe5bce0 200
+[debug] [2022-12-30T17:32:27.057Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/6292c24bf8ba7aa218dad5fb783ae51fac1e4a5f8788556c00f41de6dbe5bce0 [stream]
+[debug] [2022-12-30T17:32:27.071Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/414fbb9e507e526dd78de8be713011e4c4709dd0f755984a51baac7f77038b96 200
+[debug] [2022-12-30T17:32:27.071Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/414fbb9e507e526dd78de8be713011e4c4709dd0f755984a51baac7f77038b96 [stream]
+[debug] [2022-12-30T17:32:27.145Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/c34df189d1bfb29a73dab74f7057693c9bc00a26e749f57ef16feefddfd6f158 200
+[debug] [2022-12-30T17:32:27.150Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/c34df189d1bfb29a73dab74f7057693c9bc00a26e749f57ef16feefddfd6f158 [stream]
+[debug] [2022-12-30T17:32:27.155Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/e9f3af146ba37d3f437f37f38914784514cd93f784607033df28b9887a6f4c11 200
+[debug] [2022-12-30T17:32:27.155Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/e9f3af146ba37d3f437f37f38914784514cd93f784607033df28b9887a6f4c11 [stream]
+[debug] [2022-12-30T17:32:27.189Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/e096233a10679be070c611cfdbb19f6122989d64ba1bff877c6123c7aec0bc69 200
+[debug] [2022-12-30T17:32:27.190Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/e096233a10679be070c611cfdbb19f6122989d64ba1bff877c6123c7aec0bc69 [stream]
+[debug] [2022-12-30T17:32:27.530Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/e8b870ec6d197c4fdeaacd8f0833677e6fb558ddc51c34490523ea685c379b61 200
+[debug] [2022-12-30T17:32:27.531Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/logicarwebsite/versions/a178335a0f57e4ce/files/e8b870ec6d197c4fdeaacd8f0833677e6fb558ddc51c34490523ea685c379b61 [stream]
+[debug] [2022-12-30T17:32:27.531Z] [hosting][upload queue][FINAL] {"max":2561,"min":1630,"avg":1983.8695652173913,"active":0,"complete":23,"success":23,"errored":0,"retried":0,"total":23,"elapsed":2563}
+[info] ✔  hosting[logicarwebsite]: file upload complete 
+[debug] [2022-12-30T17:32:27.532Z] [hosting] deploy completed after 3997ms
+[info] i  functions: creating Node.js 18 function firebase-frameworks-logicarwebsite:ssrlogicarwebsite(us-central1)... 
+[debug] [2022-12-30T17:32:27.537Z] >>> [apiv2][query] POST https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/functions functionId=ssrlogicarwebsite
+[debug] [2022-12-30T17:32:27.537Z] >>> [apiv2][body] POST https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/functions {"name":"projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite","buildConfig":{"runtime":"nodejs18","entryPoint":"ssr","source":{"storageSource":{"bucket":"gcf-v2-uploads-811934711912-us-central1","object":"561fe29a-7566-46ef-94aa-244b65e9fce6.zip"}},"environmentVariables":{}},"serviceConfig":{"environmentVariables":{"__FIREBASE_FRAMEWORKS_ENTRY__":"next.js","FIREBASE_CONFIG":"{\"projectId\":\"logicar-8d096\",\"storageBucket\":\"logicar-8d096.appspot.com\",\"locationId\":\"europe-west\"}","GCLOUD_PROJECT":"logicar-8d096","EVENTARC_CLOUD_EVENT_SOURCE":"projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite"},"availableMemory":"256Mi"},"labels":{"deployment-tool":"cli-firebase","firebase-functions-codebase":"firebase-frameworks-logicarwebsite","firebase-functions-hash":"27bc0bc0caaf79f9c52d1994f3709c1c11c94729"}}
+[debug] [2022-12-30T17:32:29.668Z] <<< [apiv2][status] POST https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/functions 200
+[debug] [2022-12-30T17:32:29.668Z] <<< [apiv2][body] POST https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/functions {"name":"projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42","metadata":{"@type":"type.googleapis.com/google.cloud.functions.v2.OperationMetadata","createTime":"2022-12-30T17:32:29.560421653Z","target":"projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite","verb":"create","cancelRequested":false,"apiVersion":"v2"},"done":false}
+[debug] [2022-12-30T17:32:29.669Z] >>> [apiv2][query] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 [none]
+[debug] [2022-12-30T17:32:30.548Z] <<< [apiv2][status] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 200
+[debug] [2022-12-30T17:32:30.549Z] <<< [apiv2][body] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 {"name":"projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42","metadata":{"@type":"type.googleapis.com/google.cloud.functions.v2.OperationMetadata","createTime":"2022-12-30T17:32:29.560421653Z","target":"projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite","verb":"create","cancelRequested":false,"apiVersion":"v2","requestResource":{"@type":"type.googleapis.com/google.cloud.functions.v2.Function","name":"projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite","buildConfig":{"runtime":"nodejs18","entryPoint":"ssr","source":{"storageSource":{"bucket":"gcf-v2-sources-811934711912-us-central1","object":"ssrlogicarwebsite/function-source.zip"}}},"serviceConfig":{"service":"projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite","timeoutSeconds":60,"environmentVariables":{"__FIREBASE_FRAMEWORKS_ENTRY__":"next.js","FIREBASE_CONFIG":"{\"projectId\":\"logicar-8d096\",\"storageBucket\":\"logicar-8d096.appspot.com\",\"locationId\":\"europe-west\"}","GCLOUD_PROJECT":"logicar-8d096","EVENTARC_CLOUD_EVENT_SOURCE":"projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite"},"maxInstanceCount":100,"ingressSettings":"ALLOW_ALL","serviceAccountEmail":"811934711912-compute@developer.gserviceaccount.com","availableMemory":"256Mi","maxInstanceRequestConcurrency":1},"labels":{"deployment-tool":"cli-firebase","firebase-functions-codebase":"firebase-frameworks-logicarwebsite","firebase-functions-hash":"27bc0bc0caaf79f9c52d1994f3709c1c11c94729"},"environment":"GEN_2"},"stages":[{"name":"BUILD","state":"NOT_STARTED"},{"name":"SERVICE","state":"NOT_STARTED"}]},"done":false}
+[debug] [2022-12-30T17:32:31.052Z] [create-firebase-frameworks-logicarwebsite-us-central1-ssrlogicarwebsite] Retrying task index 0
+[debug] [2022-12-30T17:32:31.053Z] >>> [apiv2][query] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 [none]
+[debug] [2022-12-30T17:32:31.945Z] <<< [apiv2][status] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 200
+[debug] [2022-12-30T17:32:31.946Z] <<< [apiv2][body] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 {"name":"projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42","metadata":{"@type":"type.googleapis.com/google.cloud.functions.v2.OperationMetadata","createTime":"2022-12-30T17:32:29.560421653Z","target":"projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite","verb":"create","cancelRequested":false,"apiVersion":"v2","requestResource":{"@type":"type.googleapis.com/google.cloud.functions.v2.Function","name":"projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite","buildConfig":{"runtime":"nodejs18","entryPoint":"ssr","source":{"storageSource":{"bucket":"gcf-v2-sources-811934711912-us-central1","object":"ssrlogicarwebsite/function-source.zip"}}},"serviceConfig":{"service":"projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite","timeoutSeconds":60,"environmentVariables":{"__FIREBASE_FRAMEWORKS_ENTRY__":"next.js","FIREBASE_CONFIG":"{\"projectId\":\"logicar-8d096\",\"storageBucket\":\"logicar-8d096.appspot.com\",\"locationId\":\"europe-west\"}","GCLOUD_PROJECT":"logicar-8d096","EVENTARC_CLOUD_EVENT_SOURCE":"projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite"},"maxInstanceCount":100,"ingressSettings":"ALLOW_ALL","serviceAccountEmail":"811934711912-compute@developer.gserviceaccount.com","availableMemory":"256Mi","maxInstanceRequestConcurrency":1},"labels":{"deployment-tool":"cli-firebase","firebase-functions-codebase":"firebase-frameworks-logicarwebsite","firebase-functions-hash":"27bc0bc0caaf79f9c52d1994f3709c1c11c94729"},"environment":"GEN_2"},"stages":[{"name":"BUILD","state":"NOT_STARTED"},{"name":"SERVICE","state":"NOT_STARTED"}]},"done":false}
+[debug] [2022-12-30T17:32:32.948Z] [create-firebase-frameworks-logicarwebsite-us-central1-ssrlogicarwebsite] Retrying task index 0
+[debug] [2022-12-30T17:32:32.948Z] >>> [apiv2][query] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 [none]
+[debug] [2022-12-30T17:32:33.823Z] <<< [apiv2][status] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 200
+[debug] [2022-12-30T17:32:33.823Z] <<< [apiv2][body] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 {"name":"projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42","metadata":{"@type":"type.googleapis.com/google.cloud.functions.v2.OperationMetadata","createTime":"2022-12-30T17:32:29.560421653Z","target":"projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite","verb":"create","cancelRequested":false,"apiVersion":"v2","requestResource":{"@type":"type.googleapis.com/google.cloud.functions.v2.Function","name":"projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite","buildConfig":{"runtime":"nodejs18","entryPoint":"ssr","source":{"storageSource":{"bucket":"gcf-v2-sources-811934711912-us-central1","object":"ssrlogicarwebsite/function-source.zip"}}},"serviceConfig":{"service":"projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite","timeoutSeconds":60,"environmentVariables":{"__FIREBASE_FRAMEWORKS_ENTRY__":"next.js","FIREBASE_CONFIG":"{\"projectId\":\"logicar-8d096\",\"storageBucket\":\"logicar-8d096.appspot.com\",\"locationId\":\"europe-west\"}","GCLOUD_PROJECT":"logicar-8d096","EVENTARC_CLOUD_EVENT_SOURCE":"projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite"},"maxInstanceCount":100,"ingressSettings":"ALLOW_ALL","serviceAccountEmail":"811934711912-compute@developer.gserviceaccount.com","availableMemory":"256Mi","maxInstanceRequestConcurrency":1},"labels":{"deployment-tool":"cli-firebase","firebase-functions-codebase":"firebase-frameworks-logicarwebsite","firebase-functions-hash":"27bc0bc0caaf79f9c52d1994f3709c1c11c94729"},"environment":"GEN_2"},"stages":[{"name":"BUILD","message":"Creating build","state":"IN_PROGRESS","resource":"projects/811934711912/locations/us-central1/builds/70d02bc8-9805-464f-b419-7f028162b05f","resourceUri":"https://console.cloud.google.com/cloud-build/builds;region=us-central1/70d02bc8-9805-464f-b419-7f028162b05f?project=811934711912"},{"name":"SERVICE","state":"NOT_STARTED"}]},"done":false}
+[debug] [2022-12-30T17:32:35.824Z] [create-firebase-frameworks-logicarwebsite-us-central1-ssrlogicarwebsite] Retrying task index 0
+[debug] [2022-12-30T17:32:35.825Z] >>> [apiv2][query] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 [none]
+[debug] [2022-12-30T17:32:36.837Z] <<< [apiv2][status] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 200
+[debug] [2022-12-30T17:32:36.838Z] <<< [apiv2][body] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 {"name":"projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42","metadata":{"@type":"type.googleapis.com/google.cloud.functions.v2.OperationMetadata","createTime":"2022-12-30T17:32:29.560421653Z","target":"projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite","verb":"create","cancelRequested":false,"apiVersion":"v2","requestResource":{"@type":"type.googleapis.com/google.cloud.functions.v2.Function","name":"projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite","buildConfig":{"runtime":"nodejs18","entryPoint":"ssr","source":{"storageSource":{"bucket":"gcf-v2-sources-811934711912-us-central1","object":"ssrlogicarwebsite/function-source.zip"}}},"serviceConfig":{"service":"projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite","timeoutSeconds":60,"environmentVariables":{"__FIREBASE_FRAMEWORKS_ENTRY__":"next.js","FIREBASE_CONFIG":"{\"projectId\":\"logicar-8d096\",\"storageBucket\":\"logicar-8d096.appspot.com\",\"locationId\":\"europe-west\"}","GCLOUD_PROJECT":"logicar-8d096","EVENTARC_CLOUD_EVENT_SOURCE":"projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite"},"maxInstanceCount":100,"ingressSettings":"ALLOW_ALL","serviceAccountEmail":"811934711912-compute@developer.gserviceaccount.com","availableMemory":"256Mi","maxInstanceRequestConcurrency":1},"labels":{"deployment-tool":"cli-firebase","firebase-functions-codebase":"firebase-frameworks-logicarwebsite","firebase-functions-hash":"27bc0bc0caaf79f9c52d1994f3709c1c11c94729"},"environment":"GEN_2"},"stages":[{"name":"BUILD","message":"Creating build","state":"IN_PROGRESS","resource":"projects/811934711912/locations/us-central1/builds/70d02bc8-9805-464f-b419-7f028162b05f","resourceUri":"https://console.cloud.google.com/cloud-build/builds;region=us-central1/70d02bc8-9805-464f-b419-7f028162b05f?project=811934711912"},{"name":"SERVICE","state":"NOT_STARTED"}]},"done":false}
+[debug] [2022-12-30T17:32:40.839Z] [create-firebase-frameworks-logicarwebsite-us-central1-ssrlogicarwebsite] Retrying task index 0
+[debug] [2022-12-30T17:32:40.841Z] >>> [apiv2][query] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 [none]
+[debug] [2022-12-30T17:32:41.756Z] <<< [apiv2][status] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 200
+[debug] [2022-12-30T17:32:41.756Z] <<< [apiv2][body] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 {"name":"projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42","metadata":{"@type":"type.googleapis.com/google.cloud.functions.v2.OperationMetadata","createTime":"2022-12-30T17:32:29.560421653Z","target":"projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite","verb":"create","cancelRequested":false,"apiVersion":"v2","requestResource":{"@type":"type.googleapis.com/google.cloud.functions.v2.Function","name":"projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite","buildConfig":{"runtime":"nodejs18","entryPoint":"ssr","source":{"storageSource":{"bucket":"gcf-v2-sources-811934711912-us-central1","object":"ssrlogicarwebsite/function-source.zip"}}},"serviceConfig":{"service":"projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite","timeoutSeconds":60,"environmentVariables":{"__FIREBASE_FRAMEWORKS_ENTRY__":"next.js","FIREBASE_CONFIG":"{\"projectId\":\"logicar-8d096\",\"storageBucket\":\"logicar-8d096.appspot.com\",\"locationId\":\"europe-west\"}","GCLOUD_PROJECT":"logicar-8d096","EVENTARC_CLOUD_EVENT_SOURCE":"projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite"},"maxInstanceCount":100,"ingressSettings":"ALLOW_ALL","serviceAccountEmail":"811934711912-compute@developer.gserviceaccount.com","availableMemory":"256Mi","maxInstanceRequestConcurrency":1},"labels":{"deployment-tool":"cli-firebase","firebase-functions-codebase":"firebase-frameworks-logicarwebsite","firebase-functions-hash":"27bc0bc0caaf79f9c52d1994f3709c1c11c94729"},"environment":"GEN_2"},"stages":[{"name":"BUILD","message":"Creating build","state":"IN_PROGRESS","resource":"projects/811934711912/locations/us-central1/builds/70d02bc8-9805-464f-b419-7f028162b05f","resourceUri":"https://console.cloud.google.com/cloud-build/builds;region=us-central1/70d02bc8-9805-464f-b419-7f028162b05f?project=811934711912"},{"name":"SERVICE","state":"NOT_STARTED"}]},"done":false}
+[debug] [2022-12-30T17:32:49.758Z] [create-firebase-frameworks-logicarwebsite-us-central1-ssrlogicarwebsite] Retrying task index 0
+[debug] [2022-12-30T17:32:49.759Z] >>> [apiv2][query] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 [none]
+[debug] [2022-12-30T17:32:50.662Z] <<< [apiv2][status] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 200
+[debug] [2022-12-30T17:32:50.662Z] <<< [apiv2][body] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 {"name":"projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42","metadata":{"@type":"type.googleapis.com/google.cloud.functions.v2.OperationMetadata","createTime":"2022-12-30T17:32:29.560421653Z","target":"projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite","verb":"create","cancelRequested":false,"apiVersion":"v2","requestResource":{"@type":"type.googleapis.com/google.cloud.functions.v2.Function","name":"projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite","buildConfig":{"runtime":"nodejs18","entryPoint":"ssr","source":{"storageSource":{"bucket":"gcf-v2-sources-811934711912-us-central1","object":"ssrlogicarwebsite/function-source.zip"}}},"serviceConfig":{"service":"projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite","timeoutSeconds":60,"environmentVariables":{"__FIREBASE_FRAMEWORKS_ENTRY__":"next.js","FIREBASE_CONFIG":"{\"projectId\":\"logicar-8d096\",\"storageBucket\":\"logicar-8d096.appspot.com\",\"locationId\":\"europe-west\"}","GCLOUD_PROJECT":"logicar-8d096","EVENTARC_CLOUD_EVENT_SOURCE":"projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite"},"maxInstanceCount":100,"ingressSettings":"ALLOW_ALL","serviceAccountEmail":"811934711912-compute@developer.gserviceaccount.com","availableMemory":"256Mi","maxInstanceRequestConcurrency":1},"labels":{"deployment-tool":"cli-firebase","firebase-functions-codebase":"firebase-frameworks-logicarwebsite","firebase-functions-hash":"27bc0bc0caaf79f9c52d1994f3709c1c11c94729"},"environment":"GEN_2"},"stages":[{"name":"BUILD","message":"Creating build","state":"IN_PROGRESS","resource":"projects/811934711912/locations/us-central1/builds/70d02bc8-9805-464f-b419-7f028162b05f","resourceUri":"https://console.cloud.google.com/cloud-build/builds;region=us-central1/70d02bc8-9805-464f-b419-7f028162b05f?project=811934711912"},{"name":"SERVICE","state":"NOT_STARTED"}]},"done":false}
+[debug] [2022-12-30T17:33:00.663Z] [create-firebase-frameworks-logicarwebsite-us-central1-ssrlogicarwebsite] Retrying task index 0
+[debug] [2022-12-30T17:33:00.664Z] >>> [apiv2][query] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 [none]
+[debug] [2022-12-30T17:33:01.538Z] <<< [apiv2][status] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 200
+[debug] [2022-12-30T17:33:01.538Z] <<< [apiv2][body] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 {"name":"projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42","metadata":{"@type":"type.googleapis.com/google.cloud.functions.v2.OperationMetadata","createTime":"2022-12-30T17:32:29.560421653Z","target":"projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite","verb":"create","cancelRequested":false,"apiVersion":"v2","requestResource":{"@type":"type.googleapis.com/google.cloud.functions.v2.Function","name":"projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite","buildConfig":{"runtime":"nodejs18","entryPoint":"ssr","source":{"storageSource":{"bucket":"gcf-v2-sources-811934711912-us-central1","object":"ssrlogicarwebsite/function-source.zip"}}},"serviceConfig":{"service":"projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite","timeoutSeconds":60,"environmentVariables":{"__FIREBASE_FRAMEWORKS_ENTRY__":"next.js","FIREBASE_CONFIG":"{\"projectId\":\"logicar-8d096\",\"storageBucket\":\"logicar-8d096.appspot.com\",\"locationId\":\"europe-west\"}","GCLOUD_PROJECT":"logicar-8d096","EVENTARC_CLOUD_EVENT_SOURCE":"projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite"},"maxInstanceCount":100,"ingressSettings":"ALLOW_ALL","serviceAccountEmail":"811934711912-compute@developer.gserviceaccount.com","availableMemory":"256Mi","maxInstanceRequestConcurrency":1},"labels":{"deployment-tool":"cli-firebase","firebase-functions-codebase":"firebase-frameworks-logicarwebsite","firebase-functions-hash":"27bc0bc0caaf79f9c52d1994f3709c1c11c94729"},"environment":"GEN_2"},"stages":[{"name":"BUILD","message":"Creating build","state":"IN_PROGRESS","resource":"projects/811934711912/locations/us-central1/builds/70d02bc8-9805-464f-b419-7f028162b05f","resourceUri":"https://console.cloud.google.com/cloud-build/builds;region=us-central1/70d02bc8-9805-464f-b419-7f028162b05f?project=811934711912"},{"name":"SERVICE","state":"NOT_STARTED"}]},"done":false}
+[debug] [2022-12-30T17:33:11.539Z] [create-firebase-frameworks-logicarwebsite-us-central1-ssrlogicarwebsite] Retrying task index 0
+[debug] [2022-12-30T17:33:11.541Z] >>> [apiv2][query] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 [none]
+[debug] [2022-12-30T17:33:12.477Z] <<< [apiv2][status] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 200
+[debug] [2022-12-30T17:33:12.477Z] <<< [apiv2][body] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 {"name":"projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42","metadata":{"@type":"type.googleapis.com/google.cloud.functions.v2.OperationMetadata","createTime":"2022-12-30T17:32:29.560421653Z","target":"projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite","verb":"create","cancelRequested":false,"apiVersion":"v2","requestResource":{"@type":"type.googleapis.com/google.cloud.functions.v2.Function","name":"projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite","buildConfig":{"runtime":"nodejs18","entryPoint":"ssr","source":{"storageSource":{"bucket":"gcf-v2-sources-811934711912-us-central1","object":"ssrlogicarwebsite/function-source.zip"}}},"serviceConfig":{"service":"projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite","timeoutSeconds":60,"environmentVariables":{"__FIREBASE_FRAMEWORKS_ENTRY__":"next.js","FIREBASE_CONFIG":"{\"projectId\":\"logicar-8d096\",\"storageBucket\":\"logicar-8d096.appspot.com\",\"locationId\":\"europe-west\"}","GCLOUD_PROJECT":"logicar-8d096","EVENTARC_CLOUD_EVENT_SOURCE":"projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite"},"maxInstanceCount":100,"ingressSettings":"ALLOW_ALL","serviceAccountEmail":"811934711912-compute@developer.gserviceaccount.com","availableMemory":"256Mi","maxInstanceRequestConcurrency":1},"labels":{"deployment-tool":"cli-firebase","firebase-functions-codebase":"firebase-frameworks-logicarwebsite","firebase-functions-hash":"27bc0bc0caaf79f9c52d1994f3709c1c11c94729"},"environment":"GEN_2"},"stages":[{"name":"ARTIFACT_REGISTRY","state":"NOT_STARTED"},{"name":"SERVICE","state":"NOT_STARTED"}]},"done":false}
+[debug] [2022-12-30T17:33:22.479Z] [create-firebase-frameworks-logicarwebsite-us-central1-ssrlogicarwebsite] Retrying task index 0
+[debug] [2022-12-30T17:33:22.480Z] >>> [apiv2][query] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 [none]
+[debug] [2022-12-30T17:33:23.376Z] <<< [apiv2][status] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 200
+[debug] [2022-12-30T17:33:23.377Z] <<< [apiv2][body] GET https://cloudfunctions.googleapis.com/v2/projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42 {"name":"projects/logicar-8d096/locations/us-central1/operations/operation-1672421548432-5f10efc4f1d77-d417c240-f879fb42","metadata":{"@type":"type.googleapis.com/google.cloud.functions.v2.OperationMetadata","createTime":"2022-12-30T17:32:29.560421653Z","endTime":"2022-12-30T17:33:16.249145552Z","target":"projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite","verb":"create","cancelRequested":false,"apiVersion":"v2","requestResource":{"@type":"type.googleapis.com/google.cloud.functions.v2.Function","name":"projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite","buildConfig":{"runtime":"nodejs18","entryPoint":"ssr","source":{"storageSource":{"bucket":"gcf-v2-sources-811934711912-us-central1","object":"ssrlogicarwebsite/function-source.zip"}}},"serviceConfig":{"service":"projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite","timeoutSeconds":60,"environmentVariables":{"__FIREBASE_FRAMEWORKS_ENTRY__":"next.js","FIREBASE_CONFIG":"{\"projectId\":\"logicar-8d096\",\"storageBucket\":\"logicar-8d096.appspot.com\",\"locationId\":\"europe-west\"}","GCLOUD_PROJECT":"logicar-8d096","EVENTARC_CLOUD_EVENT_SOURCE":"projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite"},"maxInstanceCount":100,"ingressSettings":"ALLOW_ALL","serviceAccountEmail":"811934711912-compute@developer.gserviceaccount.com","availableMemory":"256Mi","maxInstanceRequestConcurrency":1},"labels":{"deployment-tool":"cli-firebase","firebase-functions-codebase":"firebase-frameworks-logicarwebsite","firebase-functions-hash":"27bc0bc0caaf79f9c52d1994f3709c1c11c94729"},"environment":"GEN_2"},"stages":[{"name":"ARTIFACT_REGISTRY","message":"Deleting function artifacts in Artifact Registry","state":"COMPLETE"},{"name":"SERVICE","message":"Deleting Cloud Run service","state":"COMPLETE","resource":"projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite"}]},"done":true,"error":{"code":3,"message":"Build failed with status: FAILURE and message: > next-js-boilerplate@1.0.0 prepare\n> cd .. && husky installtemplate/.husky\n\nsh: 1: husky: not found\nnpm ERR! code 127\nnpm ERR! path /workspace\nnpm ERR! command failed\nnpm ERR! command sh -c -- cd .. && husky installtemplate/.husky\n\nnpm ERR! A complete log of this run can be found in:\nnpm ERR!     /www-data-home/.npm/_logs/2022-12-30T17_32_55_843Z-debug-0.log. For more details see the logs at https://console.cloud.google.com/cloud-build/builds;region=us-central1/70d02bc8-9805-464f-b419-7f028162b05f?project=811934711912."}}
+[error] Build failed with status: FAILURE and message: > next-js-boilerplate@1.0.0 prepare
+> cd .. && husky installtemplate/.husky
+
+sh: 1: husky: not found
+npm ERR! code 127
+npm ERR! path /workspace
+npm ERR! command failed
+npm ERR! command sh -c -- cd .. && husky installtemplate/.husky
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /www-data-home/.npm/_logs/2022-12-30T17_32_55_843Z-debug-0.log. For more details see the logs at https://console.cloud.google.com/cloud-build/builds;region=us-central1/70d02bc8-9805-464f-b419-7f028162b05f?project=811934711912.
+[debug] [2022-12-30T17:33:23.379Z] Total Function Deployment time: 55843
+[debug] [2022-12-30T17:33:23.379Z] 1 Functions Deployed
+[debug] [2022-12-30T17:33:23.379Z] 1 Functions Errored
+[debug] [2022-12-30T17:33:23.379Z] 0 Function Deployments Aborted
+[debug] [2022-12-30T17:33:23.379Z] Average Function Deployment time: 55842
+[info] 
+[info] Functions deploy had errors with the following functions:
+	firebase-frameworks-logicarwebsite:ssrlogicarwebsite(us-central1)
+[debug] [2022-12-30T17:33:23.380Z] Not printing URL for HTTPS function. Typically this means it didn't match a filter or we failed deployment
+[info] i  functions: cleaning up build files... 
+[debug] [2022-12-30T17:33:23.381Z] >>> [apiv2][query] DELETE https://artifactregistry.googleapis.com/v1beta2/projects/logicar-8d096/locations/us-central1/repositories/gcf-artifacts/packages/ssrlogicarwebsite [none]
+[debug] [2022-12-30T17:33:23.383Z] >>> [apiv2][query] GET https://us.gcr.io/v2/logicar-8d096/gcf/us-central1/tags/list [none]
+[debug] [2022-12-30T17:33:23.655Z] <<< [apiv2][status] GET https://us.gcr.io/v2/logicar-8d096/gcf/us-central1/tags/list 200
+[debug] [2022-12-30T17:33:23.656Z] <<< [apiv2][body] GET https://us.gcr.io/v2/logicar-8d096/gcf/us-central1/tags/list {"child":[],"manifest":{},"name":"logicar-8d096/gcf/us-central1","tags":[]}
+[debug] [2022-12-30T17:33:23.656Z] Could not find image for function projects/logicar-8d096/locations/us-central1/functions/ssrlogicarwebsite
+[debug] [2022-12-30T17:33:24.269Z] <<< [apiv2][status] DELETE https://artifactregistry.googleapis.com/v1beta2/projects/logicar-8d096/locations/us-central1/repositories/gcf-artifacts/packages/ssrlogicarwebsite 404
+[debug] [2022-12-30T17:33:24.269Z] <<< [apiv2][body] DELETE https://artifactregistry.googleapis.com/v1beta2/projects/logicar-8d096/locations/us-central1/repositories/gcf-artifacts/packages/ssrlogicarwebsite {"error":{"code":404,"message":"Package \"projects/logicar-8d096/locations/us-central1/repositories/gcf-artifacts/packages/ssrlogicarwebsite\" was not found.","status":"NOT_FOUND"}}
+[debug] [2022-12-30T17:33:24.270Z] Functions deploy failed.
+[debug] [2022-12-30T17:33:24.270Z] {
+  "endpoint": {
+    "id": "ssrlogicarwebsite",
+    "project": "logicar-8d096",
+    "region": "us-central1",
+    "entryPoint": "ssr",
+    "platform": "gcfv2",
+    "runtime": "nodejs18",
+    "httpsTrigger": {},
+    "labels": {
+      "deployment-tool": "cli-firebase"
+    },
+    "environmentVariables": {
+      "__FIREBASE_FRAMEWORKS_ENTRY__": "next.js",
+      "FIREBASE_CONFIG": "{\"projectId\":\"logicar-8d096\",\"storageBucket\":\"logicar-8d096.appspot.com\",\"locationId\":\"europe-west\"}",
+      "GCLOUD_PROJECT": "logicar-8d096",
+      "EVENTARC_CLOUD_EVENT_SOURCE": "projects/logicar-8d096/locations/us-central1/services/ssrlogicarwebsite"
+    },
+    "codebase": "firebase-frameworks-logicarwebsite",
+    "cpu": 1,
+    "concurrency": 80,
+    "targetedByOnly": true,
+    "hash": "27bc0bc0caaf79f9c52d1994f3709c1c11c94729"
+  },
+  "op": "create",
+  "original": {
+    "name": "FirebaseError",
+    "children": [],
+    "exit": 1,
+    "message": "Build failed with status: FAILURE and message: > next-js-boilerplate@1.0.0 prepare\n> cd .. && husky installtemplate/.husky\n\nsh: 1: husky: not found\nnpm ERR! code 127\nnpm ERR! path /workspace\nnpm ERR! command failed\nnpm ERR! command sh -c -- cd .. && husky installtemplate/.husky\n\nnpm ERR! A complete log of this run can be found in:\nnpm ERR!     /www-data-home/.npm/_logs/2022-12-30T17_32_55_843Z-debug-0.log. For more details see the logs at https://console.cloud.google.com/cloud-build/builds;region=us-central1/70d02bc8-9805-464f-b419-7f028162b05f?project=811934711912.",
+    "status": 3
+  }
+}
+[debug] [2022-12-30T17:33:24.271Z] Error: Failed to create function ssrlogicarwebsite in region us-central1
+    at /usr/local/lib/node_modules/firebase-tools/lib/deploy/functions/release/fabricator.js:48:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Fabricator.createV2Function (/usr/local/lib/node_modules/firebase-tools/lib/deploy/functions/release/fabricator.js:266:32)
+    at async Fabricator.createEndpoint (/usr/local/lib/node_modules/firebase-tools/lib/deploy/functions/release/fabricator.js:132:13)
+    at async handle (/usr/local/lib/node_modules/firebase-tools/lib/deploy/functions/release/fabricator.js:85:17)
+[error] 
+[error] Error: There was an error deploying functions

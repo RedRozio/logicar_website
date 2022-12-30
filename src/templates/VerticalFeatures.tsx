@@ -3,26 +3,26 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    title="Funksjoner og tjenester"
+    description="Logicar tilbyr en suite med tjenester og API integreringer for å effektivisere din bedrifts kjøretøyflåte."
   >
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature.svg"
+      title="Brukere og tillatelser"
+      description="Vi tilbyr en omfattende og fleksibel brukeradministrasjon som gir bedrifter kontroll over hvem som har tilgang til kjøretøy og hva de har lov til å gjøre med dem."
+      image="/assets/images/users.svg"
       imageAlt="First feature alt text"
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature2.svg"
+      title="Kjøretøy og bestillinger"
+      description="Logicar gjør det enkelt å organisere kjøretøy og bestillinger, samt reparasjon, dekkskifte, skader og annet vedlikehold."
+      image="/assets/images/vehicle.svg"
       imageAlt="Second feature alt text"
       reverse
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature3.svg"
+      title="Alle holdes oppdaterte"
+      description="Når noe viktig skjer med bilen, får alle involverte push-varsel i appen, slik at ingenting viktig forblir glemt eller ukjent."
+      image="/assets/images/notification.svg"
       imageAlt="Third feature alt text"
     />
   </Section>
