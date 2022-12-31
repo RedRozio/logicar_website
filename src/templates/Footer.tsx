@@ -1,7 +1,7 @@
 import Link from 'next/link';
 
-import { Background } from '../background/Background';
-import { CenteredFooter } from '../footer/CenteredFooter';
+import { Background } from '../components/background/Background';
+import { CenteredFooter } from '../components/footer/CenteredFooter';
 import { Section } from '../layout/Section';
 import { AppConfig } from '../utils/AppConfig';
 import { Logo } from './Logo';
@@ -11,13 +11,18 @@ const Footer = () => (
     <Section>
       <CenteredFooter logo={<Logo />}>
         <li>
-          <Link href="/">
+          <Link href={AppConfig.support_mail}>
             <a>Ta kontakt</a>
           </Link>
         </li>
         <li>
-          <Link href={AppConfig.loginUrl}>
+          <Link href={AppConfig.login_url}>
             <a>Logg inn</a>
+          </Link>
+        </li>
+        <li>
+          <Link href={'/privacyPolicy'}>
+            <a>Personvern</a>
           </Link>
         </li>
       </CenteredFooter>

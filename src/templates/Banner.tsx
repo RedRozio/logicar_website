@@ -1,8 +1,9 @@
 import Link from 'next/link';
 
-import { Button } from '../button/Button';
-import { CTABanner } from '../cta/CTABanner';
+import { Button } from '../components/button/Button';
+import { CTABanner } from '../components/cta/CTABanner';
 import { Section } from '../layout/Section';
+import { AppConfig } from '../utils/AppConfig';
 
 const Banner = () => (
   <Section>
@@ -10,7 +11,7 @@ const Banner = () => (
       title="Se hvordan Logicar kan hjelpe deg med din kjøretøyflåte."
       subtitle="Vi tilpasser oss etter dine behov og ønsker."
       button={
-        <Link href="https://creativedesignsguru.com/category/nextjs/">
+        <Link href={AppConfig.support_mail}>
           <a>
             <Button>Ta kontakt</Button>
           </a>

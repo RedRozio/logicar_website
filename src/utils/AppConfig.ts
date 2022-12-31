@@ -3,5 +3,6 @@ export const AppConfig = {
   title: 'Logicar Fleet Management',
   description: 'Logicar helps companies manage their growing fleet of vehicles',
   locale: 'en',
-  loginUrl: 'https://app.logicar.com/',
+  login_url: 'https://app.logicar.no/',
+  support_mail: 'mailto:support@logicar.no',
 };

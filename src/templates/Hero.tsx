@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
-import { Background } from '../background/Background';
-import { Button } from '../button/Button';
-import { HeroOneButton } from '../hero/HeroOneButton';
+import { Background } from '../components/background/Background';
+import { Button } from '../components/button/Button';
+import { HeroOneButton } from '../components/hero/HeroOneButton';
 import { Section } from '../layout/Section';
 import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { AppConfig } from '../utils/AppConfig';
@@ -13,12 +13,12 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
+          <Link href={AppConfig.support_mail}>
             <a>Ta kontakt</a>
           </Link>
         </li>
         <li>
-          <Link href={AppConfig.loginUrl}>
+          <Link href={AppConfig.login_url}>
             <a>Logg inn</a>
           </Link>
         </li>
@@ -29,13 +29,13 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'Styr kjøretøyene dine enkelt og effektivt\n'}
+            {'Styr flåten enkelt og effektivt\n'}
             <span className="text-primary-500">med Logicar</span>
           </>
         }
-        description="Vi tilbyr en webbasert kjøretøystyringsløsning som gir bedrifter en enkel og effektiv måte å administrere sin flåte av kjøretøy."
+        description="Vi tilbyr en skybasert flåtestyringsløsning som gir bedrifter en enkel og effektiv måte å administrere sine kjøretøy."
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
+          <Link href={AppConfig.support_mail}>
             <a>
               <Button xl>Ta kontakt</Button>
             </a>
